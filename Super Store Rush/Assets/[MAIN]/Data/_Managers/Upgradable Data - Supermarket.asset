@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa256f0b89df064087b5f3ecef4b521, type: 3}
+  m_Name: Upgradable Data - Supermarket
+  m_EditorClassIdentifier: 
+  offloadTime:
+    key: _OffloadTime_Key
+    title: Boxes Offload speed
+    icon: {fileID: 21300000, guid: 3c0389c7c96ac0346905397c00f7ce6b, type: 3}
+    price: 600
+    _value: 5
+    upgradeValue: 0.5
+    maxValue: 0.15
+    isTimeBased: 1
+  offloadedPackageCount:
+    key: _OffloadPackageCount_Key
+    title: +1 Boxes Offloaded
+    icon: {fileID: 21300000, guid: 646f5bbfd9a4ed04d974f4483e8fe146, type: 3}
+    price: 600
+    _value: 3
+    upgradeValue: 1
+    maxValue: 9
+    isTimeBased: 0
+  playerStackCapacity:
+    key: _PlayerStackCapacity_Key
+    title: Your Capacity
+    icon: {fileID: 21300000, guid: 6a48a2de6f6d76b42a7be036ac14ee90, type: 3}
+    price: 300
+    _value: 1
+    upgradeValue: 1
+    maxValue: 6
+    isTimeBased: 0
+  registerWorkDuration:
+    key: _RegisterWorkDuration_Key
+    title: Cash Register Speed
+    icon: {fileID: 21300000, guid: cdd2dc748c85d0d4d8b2cf23d743ae38, type: 3}
+    price: 600
+    _value: 0.5
+    upgradeValue: 0.05
+    maxValue: 0.15
+    isTimeBased: 1
+  supermarketProductPrice:
+    key: _SuperMarketProductPrice_Key
+    title: Increase Money Earned
+    icon: {fileID: 21300000, guid: fb62dfd78746f492aa49ab5be4ba009d, type: 3}
+    price: 600
+    _value: 50
+    upgradeValue: 10
+    maxValue: 200
+    isTimeBased: 0
+  stockerCount:
+    key: _StockerCount_Key
+    title: Hire Helper
+    icon: {fileID: 21300000, guid: 914062027e40b644eb59e5075ed581cb, type: 3}
+    price: 800
+    _value: 0
+    upgradeValue: 1
+    maxValue: 4
+    isTimeBased: 0
+  stockerStackCapacity:
+    key: _StockerStackCapacity_Key
+    title: Helper Capacity
+    icon: {fileID: 21300000, guid: 8252e309102cb3c42b7361d0b1ba3771, type: 3}
+    price: 600
+    _value: 1
+    upgradeValue: 1
+    maxValue: 4
+    isTimeBased: 0
+  customerCount:
+    key: _CostumerCount_Key
+    title: Get More Customers
+    icon: {fileID: 21300000, guid: 75b02631be83e2644ad4d1a0ab4b9315, type: 3}
+    price: 800
+    _value: 2
+    upgradeValue: 1
+    maxValue: 13
+    isTimeBased: 0
+  workerSpeed:
+    key: _WorkerSpeed_Key
+    title: Helper Speed
+    icon: {fileID: 21300000, guid: cee223c55e91ca948b613daf20e13259, type: 3}
+    price: 800
+    _value: 1
+    upgradeValue: 0.5
+    maxValue: 3
+    isTimeBased: 0
+  cashierCount:
+    key: CashierCount_Key
+    title: Hire Cashier
+    icon: {fileID: 21300000, guid: 4f9939393a655344d84b9412e521b517, type: 3}
+    price: 800
+    _value: 0
+    upgradeValue: 1
+    maxValue: 5
+    isTimeBased: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa014dea1bd738e47b79042f3809ba92, type: 3}
+  m_Name: Ads Counter
+  m_EditorClassIdentifier: 
+  max_customerCheckoutCount: 2
+  max_itemUpgradeCount: 2
+  max_interactableUnlockCount: 2
+  max_moneyCollectedCounnt: 5
+  store_XPs:
+  - {fileID: 11400000, guid: 30a98574f3583e54a8a8d48cd45aea83, type: 2}
