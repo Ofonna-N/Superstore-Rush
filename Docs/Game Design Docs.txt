@@ -1,0 +1,31 @@
+SUPERMARKET RUSH
+GAME SUMMARY
+Similar to office fever, medical rush and cooking craft, where a controlled character is running around performing tasks to ultimately earn money, where the money earned is used to imporve the game or unlock items.
+
+MECHANICS
+- Stacking, placing, harvesting, unlocking.
+- Trucks deliver produce, character takes produce, produce creates a stack, character places produce on unlocked shelf, customers collect produce, costumers go to counter, customers pay for produce. each customer has specific produce they want with desired quantity.
+
+UNLOCKABLES
+- Can hire stocker - increase speed, increase capacity, 
+- hire cashier - increase speed, 
+- hire money collector 
+-can unlock new produce
+ - unlock new shelves
+- unlock new registers
+- unlock processors
+- new suppermarket section
+-  
+
+HOW STACKING WORKS
+Player goes to boxes dropped off by buses and picks them up
+
+HOW PLACEMENT ON SHELVES WORK
+Player approaches front of shelves and places items on them from the stack. the
+boxes animated per que and the items on the shelves on activated with a little jiggle/scale
+animation
+
+HOW BUSES DROP ITEMS
+buses drop a maximum of 5 boxes each, starting with 3, each box is created every 20 seconds
+How to cash register
+create states and in que state customer stands behing another customer based on world direction and AI position offset.
